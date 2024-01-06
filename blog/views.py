@@ -9,6 +9,9 @@ from django.urls import reverse
 
 def blog_view(request):
     return render(request,'blog/blog.html')
+def blog_single(request):
+    return render(request,'blog/blog-single.html')
+
 
 # Create your views here.
 # def blog_view(request,**kwargs):
